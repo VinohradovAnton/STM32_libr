@@ -1,0 +1,9 @@
+.\targets\stm32f4_discovery\tm_stm32f4_spi.o: ..\00-STM32F429_LIBRARIES\tm_stm32f4_spi.c
+.\targets\stm32f4_discovery\tm_stm32f4_spi.o: ..\00-STM32F429_LIBRARIES\tm_stm32f4_spi.h
+.\targets\stm32f4_discovery\tm_stm32f4_spi.o: ..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
+.\targets\stm32f4_discovery\tm_stm32f4_spi.o: ..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\CMSIS\Include\core_cm4.h
+.\targets\stm32f4_discovery\tm_stm32f4_spi.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\targets\stm32f4_discovery\tm_stm32f4_spi.o: ..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\CMSIS\Include\core_cmInstr.h
+.\targets\stm32f4_discovery\tm_stm32f4_spi.o: ..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\CMSIS\Include\core_cmFunc.h
+.\targets\stm32f4_discovery\tm_stm32f4_spi.o: ..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\CMSIS\Include\core_cmSimd.h
+.\targets\stm32f4_discovery\tm_stm32f4_spi.o: ..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h

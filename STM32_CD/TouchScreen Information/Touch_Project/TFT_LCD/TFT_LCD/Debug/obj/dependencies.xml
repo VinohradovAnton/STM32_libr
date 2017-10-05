@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\..\..\Users\Misha\Desktop\MCU\LCD\TFT_LCD\stm_lib /I..\..\..\..\..\Users\Misha\Desktop\MCU\LCD\TFT_LCD\font /I..\..\..\..\..\Users\Misha\Desktop\MCU\LCD /I..\..\..\..\..\Users\Misha\Desktop\MCU\LCD\TFT_LCD\stm_lib\inc /I..\..\..\..\..\Users\Misha\Desktop\MCU\LCD\TFT_LCD\GUI /I..\..\..\..\..\Users\Misha\Desktop\MCU\LCD\TFT_LCD\System /I..\..\..\..\..\Users\Misha\Desktop\MCU\LCD\TFT_LCD\cmsis /I..\..\..\..\..\Users\Misha\Desktop\MCU\LCD\TFT_LCD\cmsis_boot /I..\..\..\..\..\Users\Misha\Desktop\MCU\LCD\TFT_LCD\touch_screen /I..\..\..\..\..\Users\Misha\Desktop\MCU /I..\..\..\..\..\Users\Misha\Desktop\MCU\LCD\TFT_LCD">
+      <source file="..\..\..\GUI\GUI_DRV.c" lastModified="1497cfa4292">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\font\font.h"/>
+         <include file="..\..\..\GUI\LCD_DRIVER.h"/>
+         <include file="..\..\..\GUI\GUI_DRV.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x.h" lastModified="1494bf90eb5">
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f10x.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x_conf.h"/>
+      </source>
+      <source file="..\..\..\font\font.h" lastModified="13c72045f50">
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="1494bf912b1">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_fsmc.c" lastModified="1494bf9509b">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_fsmc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\font\font.c" lastModified="14952491602">
+         <include file="..\..\..\font\font.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_hd.c" lastModified="1494bf90acd">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_fsmc.h" lastModified="1494bf9509b">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\GUI\LCD_DRIVER.h" lastModified="14980c83bae">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\System\System.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x_conf.h" lastModified="1494bf90acd">
+      </source>
+      <source file="..\..\..\System\System.h" lastModified="14980c97650">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\GUI\LCD_DRIVER.c" lastModified="14980c7aef6">
+         <include file="..\..\..\GUI\LCD_DRIVER.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_spi.h" lastModified="1497c2a486c">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_exti.c" lastModified="1497c40ca5c">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="1494bf941af">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\init.h" lastModified="1497c1bd206">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_gpio.h" lastModified="1494bf941a5">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_exti.h" lastModified="1497c40ca52">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_spi.c" lastModified="1497c2a4876">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_rcc.h" lastModified="1494bf92e63">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm3.h" lastModified="1494bf90ebf">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+      </source>
+      <source file="..\..\..\stdio\printf.c" lastModified="1497141a497">
+      </source>
+      <source file="..\..\..\stm_lib\src\misc.c" lastModified="1497c8b06a8">
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="1497141be5f">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="1494bf92e63">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\main.c" lastModified="14980c57c4a">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_fsmc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\GUI\LCD_DRIVER.h"/>
+         <include file="..\..\..\GUI\GUI_DRV.h"/>
+         <include file="..\..\..\init.h"/>
+         <include file="..\..\..\touch_screen\touch2046.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="1494bf912a7">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.h" lastModified="1494bf90ad7">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="1494bf90ad7">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\touch_screen\touch2046.h" lastModified="14980c503f0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\GUI\GUI_DRV.h"/>
+      </source>
+      <source file="..\..\..\GUI\GUI_DRV.h" lastModified="1495327d47b">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\misc.h" lastModified="1497c8b069e">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\touch_screen\touch2046.c" lastModified="14980c4f82e">
+         <include file="..\..\..\touch_screen\touch2046.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\..\..\Users\Misha\Desktop\MCU\LCD\TFT_LCD\stm_lib /I..\..\..\..\..\Users\Misha\Desktop\MCU\LCD\TFT_LCD\font /I..\..\..\..\..\Users\Misha\Desktop\MCU\LCD /I..\..\..\..\..\Users\Misha\Desktop\MCU\LCD\TFT_LCD\stm_lib\inc /I..\..\..\..\..\Users\Misha\Desktop\MCU\LCD\TFT_LCD\GUI /I..\..\..\..\..\Users\Misha\Desktop\MCU\LCD\TFT_LCD\cmsis /I..\..\..\..\..\Users\Misha\Desktop\MCU\LCD\TFT_LCD\cmsis_boot /I..\..\..\..\..\Users\Misha\Desktop\MCU\LCD\TFT_LCD\touch_screen /I..\..\..\..\..\Users\Misha\Desktop\MCU /I..\..\..\..\..\Users\Misha\Desktop\MCU\LCD\TFT_LCD">
+      <source file="..\..\..\font\font.h" lastModified="13c72045f50">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_fsmc.c" lastModified="1494bf9509b">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_fsmc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_hd.c" lastModified="1494bf90acd">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_fsmc.h" lastModified="1494bf9509b">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x_conf.h" lastModified="1494bf90acd">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_spi.h" lastModified="1497c2a486c">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_exti.c" lastModified="1497c40ca5c">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="1494bf941af">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\init.h" lastModified="1497c1bd206">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_gpio.h" lastModified="1494bf941a5">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_exti.h" lastModified="1497c40ca52">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_spi.c" lastModified="1497c2a4876">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_rcc.h" lastModified="1494bf92e63">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\misc.c" lastModified="1497c8b06a8">
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="1494bf92e63">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.h" lastModified="1494bf90ad7">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="1494bf90ad7">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\GUI\GUI_DRV.h" lastModified="1495327d47b">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\misc.h" lastModified="1497c8b069e">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\touch_screen\touch2046.c" lastModified="14980c4f82e">
+         <include file="..\..\..\touch_screen\touch2046.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\..\..\Users\Mishadesh\Desktop\TFT_LCD /I..\..\..\..\..\Users\Mishadesh\Desktop\TFT_LCD\GUI /I..\..\..\..\..\Users\Mishadesh\Desktop\TFT_LCD\font /I..\..\..\..\..\Users\Mishadesh\Desktop\TFT_LCD\cmsis /I..\..\..\..\..\Users\Mishadesh\Desktop\TFT_LCD\stm_lib\inc /I..\..\..\..\..\Users\Mishadesh\Desktop /I..\..\..\..\..\Users\Mishadesh\Desktop\TFT_LCD\cmsis_boot /I..\..\..\..\..\Users\Mishadesh\Desktop\TFT_LCD\stm_lib">
+      <source file="..\..\..\font\font.h" lastModified="13c72045f50">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_fsmc.c" lastModified="1494bf9509b">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_fsmc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_hd.c" lastModified="1494bf90acd">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_fsmc.h" lastModified="1494bf9509b">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x_conf.h" lastModified="1494bf90acd">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="1494bf941af">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_gpio.h" lastModified="1494bf941a5">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_rcc.h" lastModified="1494bf92e63">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="1494bf92e63">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.h" lastModified="1494bf90ad7">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="1494bf90ad7">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\GUI\GUI_DRV.h" lastModified="1495327d47b">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\workspace\TFT_LCD\GUI /I..\..\..\workspace\TFT_LCD\font /I..\..\..\workspace /I..\..\..\workspace\TFT_LCD\stm_lib\inc /I..\..\..\workspace\TFT_LCD\stm_lib /I..\..\..\workspace\TFT_LCD\cmsis_boot /I..\..\..\workspace\TFT_LCD\cmsis /I..\..\..\workspace\TFT_LCD">
+      <source file="..\..\..\font\font.h" lastModified="13c72045f50">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_fsmc.c" lastModified="1494bf9509b">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_fsmc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_hd.c" lastModified="1494bf90acd">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_fsmc.h" lastModified="1494bf9509b">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x_conf.h" lastModified="1494bf90acd">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="1494bf941af">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_gpio.h" lastModified="1494bf941a5">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_rcc.h" lastModified="1494bf92e63">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="1494bf92e63">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.h" lastModified="1494bf90ad7">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="1494bf90ad7">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\GUI\GUI_DRV.h" lastModified="1495327d47b">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\workspace\TFT_LCD\font /I..\..\..\workspace /I..\..\..\workspace\TFT_LCD\stm_lib\inc /I..\..\..\workspace\TFT_LCD\stm_lib /I..\..\..\workspace\TFT_LCD\cmsis_boot /I..\..\..\workspace\TFT_LCD\cmsis /I..\..\..\workspace\TFT_LCD">
+      <source file="..\..\..\font\font.h" lastModified="13c72045f50">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_fsmc.c" lastModified="1494bf9509b">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_fsmc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_hd.c" lastModified="1494bf90acd">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_fsmc.h" lastModified="1494bf9509b">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x_conf.h" lastModified="1494bf90acd">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="1494bf941af">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_gpio.h" lastModified="1494bf941a5">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_rcc.h" lastModified="1494bf92e63">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="1494bf92e63">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.h" lastModified="1494bf90ad7">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="1494bf90ad7">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\workspace /I..\..\..\workspace\TFT_LCD\stm_lib\inc /I..\..\..\workspace\TFT_LCD\stm_lib /I..\..\..\workspace\TFT_LCD\cmsis_boot /I..\..\..\workspace\TFT_LCD\cmsis /I..\..\..\workspace\TFT_LCD">
+      <source file="..\..\..\stm_lib\src\stm32f10x_fsmc.c" lastModified="1494bf9509b">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_fsmc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_hd.c" lastModified="1494bf90acd">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_fsmc.h" lastModified="1494bf9509b">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x_conf.h" lastModified="1494bf90acd">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="1494bf941af">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_gpio.h" lastModified="1494bf941a5">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_rcc.h" lastModified="1494bf92e63">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="1494bf92e63">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.h" lastModified="1494bf90ad7">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="1494bf90ad7">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+   </includePath>
+</dependencies>

@@ -1,0 +1,594 @@
+Dependencies for Project 'uCOSDemo', Target 'uCOSDemo': (DO NOT MODIFY !)
+F (.\Source\Startup\cortexm3_macro.s)(0x48D6203C)(--cpu Cortex-M3 -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include--pd "__UVISION_VERSION SETA 520"--list .\list\cortexm3_macro.lst --xref -o .\obj\cortexm3_macro.o --depend .\obj\cortexm3_macro.d)
+F (.\Source\Startup\stm32f10x_startup.s)(0x49D887FB)(--cpu Cortex-M3 -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include--pd "__UVISION_VERSION SETA 520"--list .\list\stm32f10x_startup.lst --xref -o .\obj\stm32f10x_startup.o --depend .\obj\stm32f10x_startup.d)
+F (.\Source\APP\app.c)(0x4BC6CBA2)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\app.o --omf_browse .\obj\app.crf --depend .\obj\app.d)
+I (.\Source\APP\includes.h)(0x49B82A14)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE892E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE892E)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x56FE8930)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE892E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x56FE8930)
+I (.\Source\uCOS-II\Source\ucos_ii.h)(0x489325AC)
+I (.\Source\APP\app_cfg.h)(0x49D88E62)
+I (.\Source\APP\os_cfg.h)(0x49B653B5)
+I (.\Source\uCOS-II\Ports\os_cpu.h)(0x4864A90E)
+I (.\Source\uCOS-II\uC-CPU\cpu.h)(0x46836AE8)
+I (.\Source\uCOS-II\uC-CPU\cpu_def.h)(0x49B82777)
+I (.\Source\uCOS-II\uC-LIB\lib_def.h)(0x46836ABA)
+I (.\Source\uCOS-II\uC-LIB\lib_mem.h)(0x46836ABA)
+I (.\Source\uCOS-II\uC-LIB\lib_str.h)(0x46836ABA)
+I (C:\Keil_v5\ARM\ARMCC\include\errno.h)(0x56FE8930)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x56FE8924)
+I (.\Source\APP\stm32f10x_conf.h)(0x49B63799)
+F (.\Source\APP\app_cfg.h)(0x49D88E62)()
+F (.\Source\APP\includes.h)(0x49B82A14)()
+F (.\Source\APP\os_cfg.h)(0x49B653B5)()
+F (.\Source\APP\stm32f10x_it.c)(0x49B82959)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\stm32f10x_it.o --omf_browse .\obj\stm32f10x_it.crf --depend .\obj\stm32f10x_it.d)
+I (Source\APP\includes.h)(0x49B82A14)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE892E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE892E)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x56FE8930)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE892E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x56FE8930)
+I (.\Source\uCOS-II\Source\ucos_ii.h)(0x489325AC)
+I (.\Source\APP\app_cfg.h)(0x49D88E62)
+I (.\Source\APP\os_cfg.h)(0x49B653B5)
+I (.\Source\uCOS-II\Ports\os_cpu.h)(0x4864A90E)
+I (.\Source\uCOS-II\uC-CPU\cpu.h)(0x46836AE8)
+I (.\Source\uCOS-II\uC-CPU\cpu_def.h)(0x49B82777)
+I (.\Source\uCOS-II\uC-LIB\lib_def.h)(0x46836ABA)
+I (.\Source\uCOS-II\uC-LIB\lib_mem.h)(0x46836ABA)
+I (.\Source\uCOS-II\uC-LIB\lib_str.h)(0x46836ABA)
+I (C:\Keil_v5\ARM\ARMCC\include\errno.h)(0x56FE8930)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x56FE8924)
+I (.\Source\APP\stm32f10x_conf.h)(0x49B63799)
+F (.\Source\APP\stm32f10x_conf.h)(0x49B63799)()
+F (.\Source\BSP\bsp.c)(0x4BC6CB82)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\bsp.o --omf_browse .\obj\bsp.crf --depend .\obj\bsp.d)
+I (.\Source\APP\includes.h)(0x49B82A14)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE892E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE892E)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x56FE8930)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE892E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x56FE8930)
+I (.\Source\uCOS-II\Source\ucos_ii.h)(0x489325AC)
+I (.\Source\APP\app_cfg.h)(0x49D88E62)
+I (.\Source\APP\os_cfg.h)(0x49B653B5)
+I (.\Source\uCOS-II\Ports\os_cpu.h)(0x4864A90E)
+I (.\Source\uCOS-II\uC-CPU\cpu.h)(0x46836AE8)
+I (.\Source\uCOS-II\uC-CPU\cpu_def.h)(0x49B82777)
+I (.\Source\uCOS-II\uC-LIB\lib_def.h)(0x46836ABA)
+I (.\Source\uCOS-II\uC-LIB\lib_mem.h)(0x46836ABA)
+I (.\Source\uCOS-II\uC-LIB\lib_str.h)(0x46836ABA)
+I (C:\Keil_v5\ARM\ARMCC\include\errno.h)(0x56FE8930)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x56FE8924)
+I (.\Source\APP\stm32f10x_conf.h)(0x49B63799)
+F (.\Source\FWLib\src\stm32f10x_bkp.c)(0x49AE73C3)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\stm32f10x_bkp.o --omf_browse .\obj\stm32f10x_bkp.crf --depend .\obj\stm32f10x_bkp.d)
+F (.\Source\FWLib\src\stm32f10x_dbgmcu.c)(0x48D88AF0)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\stm32f10x_dbgmcu.o --omf_browse .\obj\stm32f10x_dbgmcu.crf --depend .\obj\stm32f10x_dbgmcu.d)
+F (.\Source\FWLib\src\stm32f10x_exti.c)(0x48D88AF0)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\stm32f10x_exti.o --omf_browse .\obj\stm32f10x_exti.crf --depend .\obj\stm32f10x_exti.d)
+F (.\Source\FWLib\src\stm32f10x_gpio.c)(0x49B63A2D)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\stm32f10x_gpio.o --omf_browse .\obj\stm32f10x_gpio.crf --depend .\obj\stm32f10x_gpio.d)
+F (.\Source\FWLib\src\stm32f10x_lib.c)(0x48D88AF0)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\stm32f10x_lib.o --omf_browse .\obj\stm32f10x_lib.crf --depend .\obj\stm32f10x_lib.d)
+F (.\Source\FWLib\src\stm32f10x_nvic.c)(0x48D88AF0)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\stm32f10x_nvic.o --omf_browse .\obj\stm32f10x_nvic.crf --depend .\obj\stm32f10x_nvic.d)
+F (.\Source\FWLib\src\stm32f10x_pwr.c)(0x48D88AF0)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\stm32f10x_pwr.o --omf_browse .\obj\stm32f10x_pwr.crf --depend .\obj\stm32f10x_pwr.d)
+F (.\Source\FWLib\src\stm32f10x_rcc.c)(0x48D88AF0)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\stm32f10x_rcc.o --omf_browse .\obj\stm32f10x_rcc.crf --depend .\obj\stm32f10x_rcc.d)
+F (.\Source\FWLib\src\stm32f10x_spi.c)(0x48D88AF0)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\stm32f10x_spi.o --omf_browse .\obj\stm32f10x_spi.crf --depend .\obj\stm32f10x_spi.d)
+F (.\Source\FWLib\src\stm32f10x_systick.c)(0x48D88AF0)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\stm32f10x_systick.o --omf_browse .\obj\stm32f10x_systick.crf --depend .\obj\stm32f10x_systick.d)
+F (.\Source\FWLib\src\stm32f10x_tim.c)(0x48D88AF0)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\stm32f10x_tim.o --omf_browse .\obj\stm32f10x_tim.crf --depend .\obj\stm32f10x_tim.d)
+F (.\Source\FWLib\src\stm32f10x_rtc.c)(0x48D88AF0)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\stm32f10x_rtc.o --omf_browse .\obj\stm32f10x_rtc.crf --depend .\obj\stm32f10x_rtc.d)
+F (.\Source\FWLib\src\stm32f10x_flash.c)(0x48D88AF0)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\stm32f10x_flash.o --omf_browse .\obj\stm32f10x_flash.crf --depend .\obj\stm32f10x_flash.d)
+F (.\Source\FWLib\src\stm32f10x_adc.c)(0x48D88AF0)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\stm32f10x_adc.o --omf_browse .\obj\stm32f10x_adc.crf --depend .\obj\stm32f10x_adc.d)
+F (.\Source\FWLib\src\stm32f10x_can.c)(0x48D88AF0)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\stm32f10x_can.o --omf_browse .\obj\stm32f10x_can.crf --depend .\obj\stm32f10x_can.d)
+F (.\Source\FWLib\src\stm32f10x_crc.c)(0x48D88AF0)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\stm32f10x_crc.o --omf_browse .\obj\stm32f10x_crc.crf --depend .\obj\stm32f10x_crc.d)
+F (.\Source\FWLib\src\stm32f10x_dac.c)(0x48D88AF0)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\stm32f10x_dac.o --omf_browse .\obj\stm32f10x_dac.crf --depend .\obj\stm32f10x_dac.d)
+F (.\Source\FWLib\src\stm32f10x_dma.c)(0x48D88AF0)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\stm32f10x_dma.o --omf_browse .\obj\stm32f10x_dma.crf --depend .\obj\stm32f10x_dma.d)
+F (.\Source\FWLib\src\stm32f10x_fsmc.c)(0x48D88AF0)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\stm32f10x_fsmc.o --omf_browse .\obj\stm32f10x_fsmc.crf --depend .\obj\stm32f10x_fsmc.d)
+F (.\Source\FWLib\src\stm32f10x_i2c.c)(0x48D88AF0)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\stm32f10x_i2c.o --omf_browse .\obj\stm32f10x_i2c.crf --depend .\obj\stm32f10x_i2c.d)
+F (.\Source\FWLib\src\stm32f10x_iwdg.c)(0x48D88AF0)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\stm32f10x_iwdg.o --omf_browse .\obj\stm32f10x_iwdg.crf --depend .\obj\stm32f10x_iwdg.d)
+F (.\Source\FWLib\src\stm32f10x_sdio.c)(0x48D88AF0)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\stm32f10x_sdio.o --omf_browse .\obj\stm32f10x_sdio.crf --depend .\obj\stm32f10x_sdio.d)
+F (.\Source\FWLib\src\stm32f10x_usart.c)(0x48D88AF0)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\stm32f10x_usart.o --omf_browse .\obj\stm32f10x_usart.crf --depend .\obj\stm32f10x_usart.d)
+F (.\Source\FWLib\src\stm32f10x_wwdg.c)(0x48D88AF0)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\stm32f10x_wwdg.o --omf_browse .\obj\stm32f10x_wwdg.crf --depend .\obj\stm32f10x_wwdg.d)
+F (.\Source\uCOS-II\Ports\os_cpu_c.c)(0x48AC1F82)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\os_cpu_c.o --omf_browse .\obj\os_cpu_c.crf --depend .\obj\os_cpu_c.d)
+I (.\Source\uCOS-II\Source\ucos_ii.h)(0x489325AC)
+I (.\Source\APP\app_cfg.h)(0x49D88E62)
+I (.\Source\APP\os_cfg.h)(0x49B653B5)
+I (.\Source\uCOS-II\Ports\os_cpu.h)(0x4864A90E)
+F (.\Source\uCOS-II\Ports\os_dbg.c)(0x47EB7EFA)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\os_dbg.o --omf_browse .\obj\os_dbg.crf --depend .\obj\os_dbg.d)
+I (.\Source\uCOS-II\Source\ucos_ii.h)(0x489325AC)
+I (.\Source\APP\app_cfg.h)(0x49D88E62)
+I (.\Source\APP\os_cfg.h)(0x49B653B5)
+I (.\Source\uCOS-II\Ports\os_cpu.h)(0x4864A90E)
+F (.\Source\uCOS-II\Ports\os_cpu.h)(0x4864A90E)()
+F (.\Source\uCOS-II\Ports\os_cpu_a.asm)(0x49B8D6EA)(--cpu Cortex-M3 -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include--pd "__UVISION_VERSION SETA 520"--list .\list\os_cpu_a.lst --xref -o .\obj\os_cpu_a.o --depend .\obj\os_cpu_a.d)
+F (.\Source\uCOS-II\uC-CPU\cpu_a.asm)(0x49B6374E)(--cpu Cortex-M3 -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include--pd "__UVISION_VERSION SETA 520"--list .\list\cpu_a.lst --xref -o .\obj\cpu_a.o --depend .\obj\cpu_a.d)
+F (.\Source\uCOS-II\uC-CPU\cpu_def.h)(0x49B82777)()
+F (.\Source\uCOS-II\uC-CPU\cpu.h)(0x46836AE8)()
+F (.\Source\uCOS-II\Source\os_core.c)(0x49E3179A)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\os_core.o --omf_browse .\obj\os_core.crf --depend .\obj\os_core.d)
+I (.\Source\uCOS-II\Source\ucos_ii.h)(0x489325AC)
+I (.\Source\APP\app_cfg.h)(0x49D88E62)
+I (.\Source\APP\os_cfg.h)(0x49B653B5)
+I (.\Source\uCOS-II\Ports\os_cpu.h)(0x4864A90E)
+F (.\Source\uCOS-II\Source\os_flag.c)(0x467602B0)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\os_flag.o --omf_browse .\obj\os_flag.crf --depend .\obj\os_flag.d)
+I (.\Source\uCOS-II\Source\ucos_ii.h)(0x489325AC)
+I (.\Source\APP\app_cfg.h)(0x49D88E62)
+I (.\Source\APP\os_cfg.h)(0x49B653B5)
+I (.\Source\uCOS-II\Ports\os_cpu.h)(0x4864A90E)
+F (.\Source\uCOS-II\Source\os_mbox.c)(0x467602B0)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\os_mbox.o --omf_browse .\obj\os_mbox.crf --depend .\obj\os_mbox.d)
+I (.\Source\uCOS-II\Source\ucos_ii.h)(0x489325AC)
+I (.\Source\APP\app_cfg.h)(0x49D88E62)
+I (.\Source\APP\os_cfg.h)(0x49B653B5)
+I (.\Source\uCOS-II\Ports\os_cpu.h)(0x4864A90E)
+F (.\Source\uCOS-II\Source\os_mem.c)(0x467602B0)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\os_mem.o --omf_browse .\obj\os_mem.crf --depend .\obj\os_mem.d)
+I (.\Source\uCOS-II\Source\ucos_ii.h)(0x489325AC)
+I (.\Source\APP\app_cfg.h)(0x49D88E62)
+I (.\Source\APP\os_cfg.h)(0x49B653B5)
+I (.\Source\uCOS-II\Ports\os_cpu.h)(0x4864A90E)
+F (.\Source\uCOS-II\Source\os_mutex.c)(0x467602B0)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\os_mutex.o --omf_browse .\obj\os_mutex.crf --depend .\obj\os_mutex.d)
+I (.\Source\uCOS-II\Source\ucos_ii.h)(0x489325AC)
+I (.\Source\APP\app_cfg.h)(0x49D88E62)
+I (.\Source\APP\os_cfg.h)(0x49B653B5)
+I (.\Source\uCOS-II\Ports\os_cpu.h)(0x4864A90E)
+F (.\Source\uCOS-II\Source\os_q.c)(0x467602B0)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\os_q.o --omf_browse .\obj\os_q.crf --depend .\obj\os_q.d)
+I (.\Source\uCOS-II\Source\ucos_ii.h)(0x489325AC)
+I (.\Source\APP\app_cfg.h)(0x49D88E62)
+I (.\Source\APP\os_cfg.h)(0x49B653B5)
+I (.\Source\uCOS-II\Ports\os_cpu.h)(0x4864A90E)
+F (.\Source\uCOS-II\Source\os_sem.c)(0x467602B0)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\os_sem.o --omf_browse .\obj\os_sem.crf --depend .\obj\os_sem.d)
+I (.\Source\uCOS-II\Source\ucos_ii.h)(0x489325AC)
+I (.\Source\APP\app_cfg.h)(0x49D88E62)
+I (.\Source\APP\os_cfg.h)(0x49B653B5)
+I (.\Source\uCOS-II\Ports\os_cpu.h)(0x4864A90E)
+F (.\Source\uCOS-II\Source\os_task.c)(0x489FF3C0)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\os_task.o --omf_browse .\obj\os_task.crf --depend .\obj\os_task.d)
+I (.\Source\uCOS-II\Source\ucos_ii.h)(0x489325AC)
+I (.\Source\APP\app_cfg.h)(0x49D88E62)
+I (.\Source\APP\os_cfg.h)(0x49B653B5)
+I (.\Source\uCOS-II\Ports\os_cpu.h)(0x4864A90E)
+F (.\Source\uCOS-II\Source\os_time.c)(0x489FFA90)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\os_time.o --omf_browse .\obj\os_time.crf --depend .\obj\os_time.d)
+I (.\Source\uCOS-II\Source\ucos_ii.h)(0x489325AC)
+I (.\Source\APP\app_cfg.h)(0x49D88E62)
+I (.\Source\APP\os_cfg.h)(0x49B653B5)
+I (.\Source\uCOS-II\Ports\os_cpu.h)(0x4864A90E)
+F (.\Source\uCOS-II\Source\os_tmr.c)(0x467602B2)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\os_tmr.o --omf_browse .\obj\os_tmr.crf --depend .\obj\os_tmr.d)
+I (.\Source\uCOS-II\Source\ucos_ii.h)(0x489325AC)
+I (.\Source\APP\app_cfg.h)(0x49D88E62)
+I (.\Source\APP\os_cfg.h)(0x49B653B5)
+I (.\Source\uCOS-II\Ports\os_cpu.h)(0x4864A90E)
+F (.\Source\uCGUI\GUI_X_Touch.c)(0x49DF0A56)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\gui_x_touch.o --omf_browse .\obj\gui_x_touch.crf --depend .\obj\gui_x_touch.d)
+I (.\Source\uCGUI\inc\GUI.h)(0x49D87893)
+I (.\Source\uCGUI\inc\GUI_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\GUIConf.h)(0x49BE46E0)
+I (.\Source\uCGUI\inc\GUIType.h)(0x412435B0)
+I (.\Source\uCGUI\inc\LCD.h)(0x412435B0)
+I (.\Source\uCGUI\inc\GUIVersion.h)(0x412AC620)
+I (.\Source\uCGUI\inc\GUI_X.h)(0x412435B0)
+I (.\Source\uCGUI\LCDDriver\ili9320.h)(0x58978401)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\stm32f10x.h)(0x53BA53B0)
+F (.\Source\uCGUI\GUI_X_uCOS.c)(0x49B825E0)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\gui_x_ucos.o --omf_browse .\obj\gui_x_ucos.crf --depend .\obj\gui_x_ucos.d)
+I (.\Source\APP\includes.h)(0x49B82A14)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE892E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE892E)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x56FE8930)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE892E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x56FE8930)
+I (.\Source\uCOS-II\Source\ucos_ii.h)(0x489325AC)
+I (.\Source\APP\app_cfg.h)(0x49D88E62)
+I (.\Source\APP\os_cfg.h)(0x49B653B5)
+I (.\Source\uCOS-II\Ports\os_cpu.h)(0x4864A90E)
+I (.\Source\uCOS-II\uC-CPU\cpu.h)(0x46836AE8)
+I (.\Source\uCOS-II\uC-CPU\cpu_def.h)(0x49B82777)
+I (.\Source\uCOS-II\uC-LIB\lib_def.h)(0x46836ABA)
+I (.\Source\uCOS-II\uC-LIB\lib_mem.h)(0x46836ABA)
+I (.\Source\uCOS-II\uC-LIB\lib_str.h)(0x46836ABA)
+I (C:\Keil_v5\ARM\ARMCC\include\errno.h)(0x56FE8930)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x56FE8924)
+I (.\Source\APP\stm32f10x_conf.h)(0x49B63799)
+F (.\Source\uCGUI\LCDDriver\ili9320.c)(0x589783C9)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\ili9320.o --omf_browse .\obj\ili9320.crf --depend .\obj\ili9320.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\stm32f10x.h)(0x53BA53B0)
+F (.\Source\uCGUI\LCDDriver\ili9320_api.c)(0x58978401)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\ili9320_api.o --omf_browse .\obj\ili9320_api.crf --depend .\obj\ili9320_api.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\stm32f10x.h)(0x53BA53B0)
+F (.\Source\uCGUI\LCDDriver\ili9320_ucgui.c)(0x4A709D26)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\ili9320_ucgui.o --omf_browse .\obj\ili9320_ucgui.crf --depend .\obj\ili9320_ucgui.d)
+I (.\Source\uCGUI\inc\LCD_Private.h)(0x412435B0)
+I (.\Source\uCGUI\inc\LCD_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\LCDConf.h)(0x49D5EAD4)
+I (.\Source\uCGUI\inc\GUI_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\GUIConf.h)(0x49BE46E0)
+I (.\Source\uCGUI\inc\LCD_Protected.h)(0x412435B0)
+I (.\Source\uCGUI\inc\LCD.h)(0x412435B0)
+I (.\Source\uCGUI\inc\GUI.h)(0x49D87893)
+I (.\Source\uCGUI\inc\GUIType.h)(0x412435B0)
+I (.\Source\uCGUI\inc\GUIVersion.h)(0x412AC620)
+I (.\Source\uCGUI\inc\GUI_Private.h)(0x412435B0)
+I (.\Source\uCGUI\inc\GUI_Protected.h)(0x412435B0)
+I (.\Source\uCGUI\inc\GUIDebug.h)(0x412435B0)
+I (.\Source\uCGUI\inc\GUI_X.h)(0x412435B0)
+I (.\Source\uCGUI\inc\WM_GUI.h)(0x412435B2)
+I (Source\uCGUI\LCDDriver\ili9320.h)(0x58978401)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\stm32f10x.h)(0x53BA53B0)
+F (.\Source\uCGUI\Config\GUIConf.h)(0x49BE46E0)()
+F (.\Source\uCGUI\Config\GUITouchConf.h)(0x49DF11FE)()
+F (.\Source\uCGUI\Config\LCDConf.h)(0x49D5EAD4)()
+F (.\Source\uCGUI\uCGUIDemo\GUIDEMO.c)(0x49E8F9A6)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\guidemo.o --omf_browse .\obj\guidemo.crf --depend .\obj\guidemo.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE892E)
+I (.\Source\uCGUI\inc\GUI.h)(0x49D87893)
+I (.\Source\uCGUI\inc\GUI_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\GUIConf.h)(0x49BE46E0)
+I (.\Source\uCGUI\inc\GUIType.h)(0x412435B0)
+I (.\Source\uCGUI\inc\LCD.h)(0x412435B0)
+I (.\Source\uCGUI\inc\GUIVersion.h)(0x412AC620)
+I (.\Source\uCGUI\inc\PROGBAR.h)(0x412435B2)
+I (.\Source\uCGUI\inc\WM.h)(0x412435B2)
+I (.\Source\uCGUI\inc\WM_GUI.h)(0x412435B2)
+I (.\Source\uCGUI\inc\DIALOG_Intern.h)(0x412435B2)
+I (.\Source\uCGUI\inc\LISTBOX.h)(0x412435B2)
+I (.\Source\uCGUI\inc\WIDGET.h)(0x412435B2)
+I (.\Source\uCGUI\inc\WM_Intern.h)(0x412435B2)
+I (.\Source\uCGUI\inc\GUI_Protected.h)(0x412435B0)
+I (.\Source\uCGUI\inc\LCD_Protected.h)(0x412435B0)
+I (.\Source\uCGUI\inc\GUIDebug.h)(0x412435B0)
+I (.\Source\uCGUI\inc\GUI_X.h)(0x412435B0)
+I (.\Source\uCGUI\inc\SCROLLBAR.h)(0x412435B2)
+I (.\Source\uCGUI\inc\FRAMEWIN.h)(0x412435B2)
+I (.\Source\uCGUI\inc\BUTTON.h)(0x412435B2)
+I (Source\uCGUI\uCGUIDemo\GUIDEMO.h)(0x49B658A3)
+I (.\Source\uCGUI\inc\LCD_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\LCDConf.h)(0x49D5EAD4)
+F (.\Source\uCGUI\uCGUIDemo\GUIDEMO_Automotive.c)(0x3EDDE99C)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\guidemo_automotive.o --omf_browse .\obj\guidemo_automotive.crf --depend .\obj\guidemo_automotive.d)
+I (.\Source\uCGUI\inc\GUI.h)(0x49D87893)
+I (.\Source\uCGUI\inc\GUI_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\GUIConf.h)(0x49BE46E0)
+I (.\Source\uCGUI\inc\GUIType.h)(0x412435B0)
+I (.\Source\uCGUI\inc\LCD.h)(0x412435B0)
+I (.\Source\uCGUI\inc\GUIVersion.h)(0x412AC620)
+I (Source\uCGUI\uCGUIDemo\GUIDEMO.h)(0x49B658A3)
+I (.\Source\uCGUI\inc\LCD_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\LCDConf.h)(0x49D5EAD4)
+I (.\Source\uCGUI\inc\WM.h)(0x412435B2)
+I (.\Source\uCGUI\inc\WM_GUI.h)(0x412435B2)
+F (.\Source\uCGUI\uCGUIDemo\GUIDEMO_Bitmap.c)(0x3F8BF612)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\guidemo_bitmap.o --omf_browse .\obj\guidemo_bitmap.crf --depend .\obj\guidemo_bitmap.d)
+I (.\Source\uCGUI\inc\GUI.h)(0x49D87893)
+I (.\Source\uCGUI\inc\GUI_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\GUIConf.h)(0x49BE46E0)
+I (.\Source\uCGUI\inc\GUIType.h)(0x412435B0)
+I (.\Source\uCGUI\inc\LCD.h)(0x412435B0)
+I (.\Source\uCGUI\inc\GUIVersion.h)(0x412AC620)
+I (Source\uCGUI\uCGUIDemo\GUIDEMO.h)(0x49B658A3)
+I (.\Source\uCGUI\inc\LCD_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\LCDConf.h)(0x49D5EAD4)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x56FE8926)
+I (.\Source\uCGUI\inc\WM.h)(0x412435B2)
+I (.\Source\uCGUI\inc\WM_GUI.h)(0x412435B2)
+F (.\Source\uCGUI\uCGUIDemo\GUIDEMO_Bitmap4bpp.c)(0x3D47F542)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\guidemo_bitmap4bpp.o --omf_browse .\obj\guidemo_bitmap4bpp.crf --depend .\obj\guidemo_bitmap4bpp.d)
+I (.\Source\uCGUI\inc\GUI.H)(0x49D87893)
+I (.\Source\uCGUI\inc\GUI_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\GUIConf.h)(0x49BE46E0)
+I (.\Source\uCGUI\inc\GUIType.h)(0x412435B0)
+I (.\Source\uCGUI\inc\LCD.h)(0x412435B0)
+I (.\Source\uCGUI\inc\GUIVersion.h)(0x412AC620)
+I (Source\uCGUI\uCGUIDemo\GUIDEMO.H)(0x49B658A3)
+I (.\Source\uCGUI\inc\LCD_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\LCDConf.h)(0x49D5EAD4)
+F (.\Source\uCGUI\uCGUIDemo\GUIDEMO_Circle.c)(0x3E428D9C)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\guidemo_circle.o --omf_browse .\obj\guidemo_circle.crf --depend .\obj\guidemo_circle.d)
+I (.\Source\uCGUI\inc\GUI.h)(0x49D87893)
+I (.\Source\uCGUI\inc\GUI_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\GUIConf.h)(0x49BE46E0)
+I (.\Source\uCGUI\inc\GUIType.h)(0x412435B0)
+I (.\Source\uCGUI\inc\LCD.h)(0x412435B0)
+I (.\Source\uCGUI\inc\GUIVersion.h)(0x412AC620)
+I (Source\uCGUI\uCGUIDemo\GUIDEMO.h)(0x49B658A3)
+I (.\Source\uCGUI\inc\LCD_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\LCDConf.h)(0x49D5EAD4)
+F (.\Source\uCGUI\uCGUIDemo\GUIDEMO_ColorBar.c)(0x3E5D1890)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\guidemo_colorbar.o --omf_browse .\obj\guidemo_colorbar.crf --depend .\obj\guidemo_colorbar.d)
+I (.\Source\uCGUI\inc\LCD.h)(0x412435B0)
+I (.\Source\uCGUI\inc\GUI_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\GUIConf.h)(0x49BE46E0)
+I (.\Source\uCGUI\inc\LCD_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\LCDConf.h)(0x49D5EAD4)
+I (.\Source\uCGUI\inc\GUI.h)(0x49D87893)
+I (.\Source\uCGUI\inc\GUIType.h)(0x412435B0)
+I (.\Source\uCGUI\inc\GUIVersion.h)(0x412AC620)
+I (Source\uCGUI\uCGUIDemo\GUIDEMO.h)(0x49B658A3)
+F (.\Source\uCGUI\uCGUIDemo\GUIDEMO_ColorList.c)(0x3E428D9C)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\guidemo_colorlist.o --omf_browse .\obj\guidemo_colorlist.crf --depend .\obj\guidemo_colorlist.d)
+I (.\Source\uCGUI\inc\LCD_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\LCDConf.h)(0x49D5EAD4)
+I (.\Source\uCGUI\inc\GUI_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\GUIConf.h)(0x49BE46E0)
+I (.\Source\uCGUI\inc\GUI.h)(0x49D87893)
+I (.\Source\uCGUI\inc\GUIType.h)(0x412435B0)
+I (.\Source\uCGUI\inc\LCD.h)(0x412435B0)
+I (.\Source\uCGUI\inc\GUIVersion.h)(0x412AC620)
+I (Source\uCGUI\uCGUIDemo\GUIDEMO.h)(0x49B658A3)
+F (.\Source\uCGUI\uCGUIDemo\GUIDEMO_Cursor.c)(0x3D934E6C)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\guidemo_cursor.o --omf_browse .\obj\guidemo_cursor.crf --depend .\obj\guidemo_cursor.d)
+I (.\Source\uCGUI\inc\GUI.H)(0x49D87893)
+I (.\Source\uCGUI\inc\GUI_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\GUIConf.h)(0x49BE46E0)
+I (.\Source\uCGUI\inc\GUIType.h)(0x412435B0)
+I (.\Source\uCGUI\inc\LCD.h)(0x412435B0)
+I (.\Source\uCGUI\inc\GUIVersion.h)(0x412AC620)
+I (Source\uCGUI\uCGUIDemo\GUIDEMO.H)(0x49B658A3)
+I (.\Source\uCGUI\inc\LCD_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\LCDConf.h)(0x49D5EAD4)
+F (.\Source\uCGUI\uCGUIDemo\GUIDEMO_Dialog.c)(0x3F8BF612)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\guidemo_dialog.o --omf_browse .\obj\guidemo_dialog.crf --depend .\obj\guidemo_dialog.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE892E)
+I (.\Source\uCGUI\inc\GUI.h)(0x49D87893)
+I (.\Source\uCGUI\inc\GUI_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\GUIConf.h)(0x49BE46E0)
+I (.\Source\uCGUI\inc\GUIType.h)(0x412435B0)
+I (.\Source\uCGUI\inc\LCD.h)(0x412435B0)
+I (.\Source\uCGUI\inc\GUIVersion.h)(0x412AC620)
+I (Source\uCGUI\uCGUIDemo\GUIDEMO.h)(0x49B658A3)
+I (.\Source\uCGUI\inc\LCD_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\LCDConf.h)(0x49D5EAD4)
+I (.\Source\uCGUI\inc\WM.h)(0x412435B2)
+I (.\Source\uCGUI\inc\WM_GUI.h)(0x412435B2)
+I (.\Source\uCGUI\inc\DIALOG.h)(0x412435B2)
+I (.\Source\uCGUI\inc\BUTTON.h)(0x412435B2)
+I (.\Source\uCGUI\inc\DIALOG_Intern.h)(0x412435B2)
+I (.\Source\uCGUI\inc\WIDGET.h)(0x412435B2)
+I (.\Source\uCGUI\inc\WM_Intern.h)(0x412435B2)
+I (.\Source\uCGUI\inc\GUI_Protected.h)(0x412435B0)
+I (.\Source\uCGUI\inc\LCD_Protected.h)(0x412435B0)
+I (.\Source\uCGUI\inc\GUIDebug.h)(0x412435B0)
+I (.\Source\uCGUI\inc\GUI_X.h)(0x412435B0)
+I (.\Source\uCGUI\inc\SCROLLBAR.h)(0x412435B2)
+I (.\Source\uCGUI\inc\CHECKBOX.h)(0x412435B2)
+I (.\Source\uCGUI\inc\DROPDOWN.h)(0x412435B2)
+I (.\Source\uCGUI\inc\EDIT.h)(0x412435B2)
+I (.\Source\uCGUI\inc\FRAMEWIN.h)(0x412435B2)
+I (.\Source\uCGUI\inc\LISTBOX.h)(0x412435B2)
+I (.\Source\uCGUI\inc\MULTIEDIT.h)(0x412435B2)
+I (.\Source\uCGUI\inc\RADIO.h)(0x412435B2)
+I (.\Source\uCGUI\inc\SLIDER.h)(0x412435B2)
+I (.\Source\uCGUI\inc\TEXT.h)(0x412435B2)
+F (.\Source\uCGUI\uCGUIDemo\GUIDEMO_Font.c)(0x3D4C19FE)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\guidemo_font.o --omf_browse .\obj\guidemo_font.crf --depend .\obj\guidemo_font.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE892E)
+I (.\Source\uCGUI\inc\GUI.H)(0x49D87893)
+I (.\Source\uCGUI\inc\GUI_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\GUIConf.h)(0x49BE46E0)
+I (.\Source\uCGUI\inc\GUIType.h)(0x412435B0)
+I (.\Source\uCGUI\inc\LCD.h)(0x412435B0)
+I (.\Source\uCGUI\inc\GUIVersion.h)(0x412AC620)
+I (Source\uCGUI\uCGUIDemo\GUIDEMO.H)(0x49B658A3)
+I (.\Source\uCGUI\inc\LCD_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\LCDConf.h)(0x49D5EAD4)
+F (.\Source\uCGUI\uCGUIDemo\GUIDEMO_FrameWin.c)(0x401DF736)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\guidemo_framewin.o --omf_browse .\obj\guidemo_framewin.crf --depend .\obj\guidemo_framewin.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE892E)
+I (.\Source\uCGUI\inc\GUI.h)(0x49D87893)
+I (.\Source\uCGUI\inc\GUI_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\GUIConf.h)(0x49BE46E0)
+I (.\Source\uCGUI\inc\GUIType.h)(0x412435B0)
+I (.\Source\uCGUI\inc\LCD.h)(0x412435B0)
+I (.\Source\uCGUI\inc\GUIVersion.h)(0x412AC620)
+I (Source\uCGUI\uCGUIDemo\GUIDEMO.h)(0x49B658A3)
+I (.\Source\uCGUI\inc\LCD_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\LCDConf.h)(0x49D5EAD4)
+I (.\Source\uCGUI\inc\WM.h)(0x412435B2)
+I (.\Source\uCGUI\inc\WM_GUI.h)(0x412435B2)
+I (.\Source\uCGUI\inc\LISTBOX.h)(0x412435B2)
+I (.\Source\uCGUI\inc\WIDGET.h)(0x412435B2)
+I (.\Source\uCGUI\inc\WM_Intern.h)(0x412435B2)
+I (.\Source\uCGUI\inc\GUI_Protected.h)(0x412435B0)
+I (.\Source\uCGUI\inc\LCD_Protected.h)(0x412435B0)
+I (.\Source\uCGUI\inc\GUIDebug.h)(0x412435B0)
+I (.\Source\uCGUI\inc\GUI_X.h)(0x412435B0)
+I (.\Source\uCGUI\inc\SCROLLBAR.h)(0x412435B2)
+I (.\Source\uCGUI\inc\DIALOG_Intern.h)(0x412435B2)
+I (.\Source\uCGUI\inc\FRAMEWIN.h)(0x412435B2)
+F (.\Source\uCGUI\uCGUIDemo\GUIDEMO_Graph.c)(0x3E428D9C)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\guidemo_graph.o --omf_browse .\obj\guidemo_graph.crf --depend .\obj\guidemo_graph.d)
+I (.\Source\uCGUI\inc\GUI.h)(0x49D87893)
+I (.\Source\uCGUI\inc\GUI_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\GUIConf.h)(0x49BE46E0)
+I (.\Source\uCGUI\inc\GUIType.h)(0x412435B0)
+I (.\Source\uCGUI\inc\LCD.h)(0x412435B0)
+I (.\Source\uCGUI\inc\GUIVersion.h)(0x412AC620)
+I (.\Source\uCGUI\inc\LCD_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\LCDConf.h)(0x49D5EAD4)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x56FE8926)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE892E)
+I (Source\uCGUI\uCGUIDemo\GUIDEMO.h)(0x49B658A3)
+F (.\Source\uCGUI\uCGUIDemo\GUIDEMO_HardwareInfo.c)(0x494BED06)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\guidemo_hardwareinfo.o --omf_browse .\obj\guidemo_hardwareinfo.crf --depend .\obj\guidemo_hardwareinfo.d)
+I (.\Source\uCGUI\inc\GUI.h)(0x49D87893)
+I (.\Source\uCGUI\inc\GUI_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\GUIConf.h)(0x49BE46E0)
+I (.\Source\uCGUI\inc\GUIType.h)(0x412435B0)
+I (.\Source\uCGUI\inc\LCD.h)(0x412435B0)
+I (.\Source\uCGUI\inc\GUIVersion.h)(0x412AC620)
+I (Source\uCGUI\uCGUIDemo\GUIDEMO.h)(0x49B658A3)
+I (.\Source\uCGUI\inc\LCD_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\LCDConf.h)(0x49D5EAD4)
+F (.\Source\uCGUI\uCGUIDemo\GUIDEMO_Intro.c)(0x49BE42CF)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\guidemo_intro.o --omf_browse .\obj\guidemo_intro.crf --depend .\obj\guidemo_intro.d)
+I (.\Source\uCGUI\inc\GUI.H)(0x49D87893)
+I (.\Source\uCGUI\inc\GUI_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\GUIConf.h)(0x49BE46E0)
+I (.\Source\uCGUI\inc\GUIType.h)(0x412435B0)
+I (.\Source\uCGUI\inc\LCD.h)(0x412435B0)
+I (.\Source\uCGUI\inc\GUIVersion.h)(0x412AC620)
+I (Source\uCGUI\uCGUIDemo\GUIDEMO.H)(0x49B658A3)
+I (.\Source\uCGUI\inc\LCD_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\LCDConf.h)(0x49D5EAD4)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE892E)
+F (.\Source\uCGUI\uCGUIDemo\GUIDEMO_LUT.c)(0x3D47F542)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\guidemo_lut.o --omf_browse .\obj\guidemo_lut.crf --depend .\obj\guidemo_lut.d)
+I (.\Source\uCGUI\inc\GUI.H)(0x49D87893)
+I (.\Source\uCGUI\inc\GUI_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\GUIConf.h)(0x49BE46E0)
+I (.\Source\uCGUI\inc\GUIType.h)(0x412435B0)
+I (.\Source\uCGUI\inc\LCD.h)(0x412435B0)
+I (.\Source\uCGUI\inc\GUIVersion.h)(0x412AC620)
+I (Source\uCGUI\uCGUIDemo\GUIDEMO.H)(0x49B658A3)
+I (.\Source\uCGUI\inc\LCD_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\LCDConf.h)(0x49D5EAD4)
+F (.\Source\uCGUI\uCGUIDemo\GUIDEMO_MemDevB.c)(0x3D4C171C)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\guidemo_memdevb.o --omf_browse .\obj\guidemo_memdevb.crf --depend .\obj\guidemo_memdevb.d)
+I (.\Source\uCGUI\inc\GUI.H)(0x49D87893)
+I (.\Source\uCGUI\inc\GUI_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\GUIConf.h)(0x49BE46E0)
+I (.\Source\uCGUI\inc\GUIType.h)(0x412435B0)
+I (.\Source\uCGUI\inc\LCD.h)(0x412435B0)
+I (.\Source\uCGUI\inc\GUIVersion.h)(0x412AC620)
+I (Source\uCGUI\uCGUIDemo\GUIDEMO.H)(0x49B658A3)
+I (.\Source\uCGUI\inc\LCD_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\LCDConf.h)(0x49D5EAD4)
+I (.\Source\uCGUI\inc\WM.h)(0x412435B2)
+I (.\Source\uCGUI\inc\WM_GUI.h)(0x412435B2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE892E)
+F (.\Source\uCGUI\uCGUIDemo\GUIDEMO_Messagebox.c)(0x3D47F542)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\guidemo_messagebox.o --omf_browse .\obj\guidemo_messagebox.crf --depend .\obj\guidemo_messagebox.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE892E)
+I (.\Source\uCGUI\inc\GUI.H)(0x49D87893)
+I (.\Source\uCGUI\inc\GUI_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\GUIConf.h)(0x49BE46E0)
+I (.\Source\uCGUI\inc\GUIType.h)(0x412435B0)
+I (.\Source\uCGUI\inc\LCD.h)(0x412435B0)
+I (.\Source\uCGUI\inc\GUIVersion.h)(0x412AC620)
+I (Source\uCGUI\uCGUIDemo\GUIDEMO.H)(0x49B658A3)
+I (.\Source\uCGUI\inc\LCD_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\LCDConf.h)(0x49D5EAD4)
+I (.\Source\uCGUI\inc\WM.h)(0x412435B2)
+I (.\Source\uCGUI\inc\WM_GUI.h)(0x412435B2)
+I (.\Source\uCGUI\inc\Dialog.h)(0x412435B2)
+I (.\Source\uCGUI\inc\BUTTON.h)(0x412435B2)
+I (.\Source\uCGUI\inc\DIALOG_Intern.h)(0x412435B2)
+I (.\Source\uCGUI\inc\WIDGET.h)(0x412435B2)
+I (.\Source\uCGUI\inc\WM_Intern.h)(0x412435B2)
+I (.\Source\uCGUI\inc\GUI_Protected.h)(0x412435B0)
+I (.\Source\uCGUI\inc\LCD_Protected.h)(0x412435B0)
+I (.\Source\uCGUI\inc\GUIDebug.h)(0x412435B0)
+I (.\Source\uCGUI\inc\GUI_X.h)(0x412435B0)
+I (.\Source\uCGUI\inc\SCROLLBAR.h)(0x412435B2)
+I (.\Source\uCGUI\inc\CHECKBOX.h)(0x412435B2)
+I (.\Source\uCGUI\inc\DROPDOWN.h)(0x412435B2)
+I (.\Source\uCGUI\inc\EDIT.h)(0x412435B2)
+I (.\Source\uCGUI\inc\FRAMEWIN.h)(0x412435B2)
+I (.\Source\uCGUI\inc\LISTBOX.h)(0x412435B2)
+I (.\Source\uCGUI\inc\MULTIEDIT.h)(0x412435B2)
+I (.\Source\uCGUI\inc\RADIO.h)(0x412435B2)
+I (.\Source\uCGUI\inc\SLIDER.h)(0x412435B2)
+I (.\Source\uCGUI\inc\TEXT.h)(0x412435B2)
+F (.\Source\uCGUI\uCGUIDemo\GUIDEMO_Navi.c)(0x3F9236F2)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\guidemo_navi.o --omf_browse .\obj\guidemo_navi.crf --depend .\obj\guidemo_navi.d)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x56FE8926)
+I (.\Source\uCGUI\inc\GUI.h)(0x49D87893)
+I (.\Source\uCGUI\inc\GUI_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\GUIConf.h)(0x49BE46E0)
+I (.\Source\uCGUI\inc\GUIType.h)(0x412435B0)
+I (.\Source\uCGUI\inc\LCD.h)(0x412435B0)
+I (.\Source\uCGUI\inc\GUIVersion.h)(0x412AC620)
+I (Source\uCGUI\uCGUIDemo\GUIDEMO.h)(0x49B658A3)
+I (.\Source\uCGUI\inc\LCD_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\LCDConf.h)(0x49D5EAD4)
+I (.\Source\uCGUI\inc\WM.h)(0x412435B2)
+I (.\Source\uCGUI\inc\WM_GUI.h)(0x412435B2)
+I (.\Source\uCGUI\inc\FRAMEWIN.h)(0x412435B2)
+I (.\Source\uCGUI\inc\DIALOG_Intern.h)(0x412435B2)
+I (Source\uCGUI\uCGUIDemo\Map.h)(0x3D47F542)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE892E)
+F (.\Source\uCGUI\uCGUIDemo\GUIDEMO_Polygon.c)(0x3E428D9C)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\guidemo_polygon.o --omf_browse .\obj\guidemo_polygon.crf --depend .\obj\guidemo_polygon.d)
+I (.\Source\uCGUI\inc\GUI.h)(0x49D87893)
+I (.\Source\uCGUI\inc\GUI_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\GUIConf.h)(0x49BE46E0)
+I (.\Source\uCGUI\inc\GUIType.h)(0x412435B0)
+I (.\Source\uCGUI\inc\LCD.h)(0x412435B0)
+I (.\Source\uCGUI\inc\GUIVersion.h)(0x412AC620)
+I (Source\uCGUI\uCGUIDemo\GUIDEMO.h)(0x49B658A3)
+I (.\Source\uCGUI\inc\LCD_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\LCDConf.h)(0x49D5EAD4)
+F (.\Source\uCGUI\uCGUIDemo\GUIDEMO_ProgBar.c)(0x3E428D9C)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\guidemo_progbar.o --omf_browse .\obj\guidemo_progbar.crf --depend .\obj\guidemo_progbar.d)
+I (.\Source\uCGUI\inc\GUI.h)(0x49D87893)
+I (.\Source\uCGUI\inc\GUI_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\GUIConf.h)(0x49BE46E0)
+I (.\Source\uCGUI\inc\GUIType.h)(0x412435B0)
+I (.\Source\uCGUI\inc\LCD.h)(0x412435B0)
+I (.\Source\uCGUI\inc\GUIVersion.h)(0x412AC620)
+I (Source\uCGUI\uCGUIDemo\GUIDEMO.h)(0x49B658A3)
+I (.\Source\uCGUI\inc\LCD_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\LCDConf.h)(0x49D5EAD4)
+I (.\Source\uCGUI\inc\PROGBAR.h)(0x412435B2)
+I (.\Source\uCGUI\inc\WM.h)(0x412435B2)
+I (.\Source\uCGUI\inc\WM_GUI.h)(0x412435B2)
+I (.\Source\uCGUI\inc\DIALOG_Intern.h)(0x412435B2)
+F (.\Source\uCGUI\uCGUIDemo\GUIDEMO_Speed.c)(0x3D4C177A)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\guidemo_speed.o --omf_browse .\obj\guidemo_speed.crf --depend .\obj\guidemo_speed.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE892E)
+I (.\Source\uCGUI\inc\GUI.H)(0x49D87893)
+I (.\Source\uCGUI\inc\GUI_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\GUIConf.h)(0x49BE46E0)
+I (.\Source\uCGUI\inc\GUIType.h)(0x412435B0)
+I (.\Source\uCGUI\inc\LCD.h)(0x412435B0)
+I (.\Source\uCGUI\inc\GUIVersion.h)(0x412AC620)
+I (Source\uCGUI\uCGUIDemo\GUIDEMO.H)(0x49B658A3)
+I (.\Source\uCGUI\inc\LCD_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\LCDConf.h)(0x49D5EAD4)
+F (.\Source\uCGUI\uCGUIDemo\GUIDEMO_Touch.c)(0x494BF05A)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\guidemo_touch.o --omf_browse .\obj\guidemo_touch.crf --depend .\obj\guidemo_touch.d)
+I (.\Source\uCGUI\inc\GUI.h)(0x49D87893)
+I (.\Source\uCGUI\inc\GUI_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\GUIConf.h)(0x49BE46E0)
+I (.\Source\uCGUI\inc\GUIType.h)(0x412435B0)
+I (.\Source\uCGUI\inc\LCD.h)(0x412435B0)
+I (.\Source\uCGUI\inc\GUIVersion.h)(0x412AC620)
+I (.\Source\uCGUI\inc\LCD_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\LCDConf.h)(0x49D5EAD4)
+I (Source\uCGUI\uCGUIDemo\GUIDEMO.h)(0x49B658A3)
+I (.\Source\uCGUI\inc\BUTTON.h)(0x412435B2)
+I (.\Source\uCGUI\inc\WM.h)(0x412435B2)
+I (.\Source\uCGUI\inc\WM_GUI.h)(0x412435B2)
+I (.\Source\uCGUI\inc\DIALOG_Intern.h)(0x412435B2)
+I (.\Source\uCGUI\inc\WIDGET.h)(0x412435B2)
+I (.\Source\uCGUI\inc\WM_Intern.h)(0x412435B2)
+I (.\Source\uCGUI\inc\GUI_Protected.h)(0x412435B0)
+I (.\Source\uCGUI\inc\LCD_Protected.h)(0x412435B0)
+I (.\Source\uCGUI\inc\GUIDebug.h)(0x412435B0)
+I (.\Source\uCGUI\inc\GUI_X.h)(0x412435B0)
+I (.\Source\uCGUI\inc\SCROLLBAR.h)(0x412435B2)
+I (.\Source\uCGUI\inc\EDIT.h)(0x412435B2)
+F (.\Source\uCGUI\uCGUIDemo\GUIDEMO_WM.c)(0x40233206)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\guidemo_wm.o --omf_browse .\obj\guidemo_wm.crf --depend .\obj\guidemo_wm.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE892E)
+I (.\Source\uCGUI\inc\GUI.h)(0x49D87893)
+I (.\Source\uCGUI\inc\GUI_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\GUIConf.h)(0x49BE46E0)
+I (.\Source\uCGUI\inc\GUIType.h)(0x412435B0)
+I (.\Source\uCGUI\inc\LCD.h)(0x412435B0)
+I (.\Source\uCGUI\inc\GUIVersion.h)(0x412AC620)
+I (Source\uCGUI\uCGUIDemo\GUIDEMO.h)(0x49B658A3)
+I (.\Source\uCGUI\inc\LCD_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\LCDConf.h)(0x49D5EAD4)
+I (.\Source\uCGUI\inc\WM.h)(0x412435B2)
+I (.\Source\uCGUI\inc\WM_GUI.h)(0x412435B2)
+I (.\Source\uCGUI\inc\MULTIEDIT.h)(0x412435B2)
+I (.\Source\uCGUI\inc\DIALOG.h)(0x412435B2)
+I (.\Source\uCGUI\inc\BUTTON.h)(0x412435B2)
+I (.\Source\uCGUI\inc\DIALOG_Intern.h)(0x412435B2)
+I (.\Source\uCGUI\inc\WIDGET.h)(0x412435B2)
+I (.\Source\uCGUI\inc\WM_Intern.h)(0x412435B2)
+I (.\Source\uCGUI\inc\GUI_Protected.h)(0x412435B0)
+I (.\Source\uCGUI\inc\LCD_Protected.h)(0x412435B0)
+I (.\Source\uCGUI\inc\GUIDebug.h)(0x412435B0)
+I (.\Source\uCGUI\inc\GUI_X.h)(0x412435B0)
+I (.\Source\uCGUI\inc\SCROLLBAR.h)(0x412435B2)
+I (.\Source\uCGUI\inc\CHECKBOX.h)(0x412435B2)
+I (.\Source\uCGUI\inc\DROPDOWN.h)(0x412435B2)
+I (.\Source\uCGUI\inc\EDIT.h)(0x412435B2)
+I (.\Source\uCGUI\inc\FRAMEWIN.h)(0x412435B2)
+I (.\Source\uCGUI\inc\LISTBOX.h)(0x412435B2)
+I (.\Source\uCGUI\inc\RADIO.h)(0x412435B2)
+I (.\Source\uCGUI\inc\SLIDER.h)(0x412435B2)
+I (.\Source\uCGUI\inc\TEXT.h)(0x412435B2)
+F (.\Source\uCGUI\uCGUIDemo\MainTask.c)(0x3D86E8DA)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\maintask.o --omf_browse .\obj\maintask.crf --depend .\obj\maintask.d)
+I (.\Source\uCGUI\inc\GUI.h)(0x49D87893)
+I (.\Source\uCGUI\inc\GUI_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\GUIConf.h)(0x49BE46E0)
+I (.\Source\uCGUI\inc\GUIType.h)(0x412435B0)
+I (.\Source\uCGUI\inc\LCD.h)(0x412435B0)
+I (.\Source\uCGUI\inc\GUIVersion.h)(0x412AC620)
+I (Source\uCGUI\uCGUIDemo\GUIDEMO.h)(0x49B658A3)
+I (.\Source\uCGUI\inc\LCD_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\LCDConf.h)(0x49D5EAD4)
+F (.\Source\uCGUI\uCGUIDemo\MicriumLogo.c)(0x3D095634)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\micriumlogo.o --omf_browse .\obj\micriumlogo.crf --depend .\obj\micriumlogo.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE892E)
+I (.\Source\uCGUI\inc\GUI.H)(0x49D87893)
+I (.\Source\uCGUI\inc\GUI_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\GUIConf.h)(0x49BE46E0)
+I (.\Source\uCGUI\inc\GUIType.h)(0x412435B0)
+I (.\Source\uCGUI\inc\LCD.h)(0x412435B0)
+I (.\Source\uCGUI\inc\GUIVersion.h)(0x412AC620)
+F (.\Source\uCGUI\uCGUIDemo\MicriumLogoWRed.c)(0x3D4F4DAE)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork -I .\Source\APP -I .\Source\BSP -I .\Source\FWLib -I .\Source\Startup -I .\Source\uCOS-II\Source -I .\Source\uCOS-II\uC-CPU -I .\Source\uCOS-II\uC-LIB -I .\Source\uCOS-II\Ports -I .\Source\uCGUI\Config -I .\Source\uCGUI\emWinDemo -I .\Source\uCGUI\inc -I .\Source\uCGUI\LCDDriver -I .\Source\uCGUI\uCGUIDemo-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520"-o .\obj\micriumlogowred.o --omf_browse .\obj\micriumlogowred.crf --depend .\obj\micriumlogowred.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE892E)
+I (.\Source\uCGUI\inc\GUI.H)(0x49D87893)
+I (.\Source\uCGUI\inc\GUI_ConfDefaults.h)(0x412435B0)
+I (.\Source\uCGUI\Config\GUIConf.h)(0x49BE46E0)
+I (.\Source\uCGUI\inc\GUIType.h)(0x412435B0)
+I (.\Source\uCGUI\inc\LCD.h)(0x412435B0)
+I (.\Source\uCGUI\inc\GUIVersion.h)(0x412AC620)
+F (.\Source\uCGUI\uCGUI.lib)(0x49DF1149)()

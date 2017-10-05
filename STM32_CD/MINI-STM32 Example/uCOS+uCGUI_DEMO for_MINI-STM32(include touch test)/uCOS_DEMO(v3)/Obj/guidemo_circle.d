@@ -1,0 +1,10 @@
+.\obj\guidemo_circle.o: Source\uCGUI\uCGUIDemo\GUIDEMO_Circle.c
+.\obj\guidemo_circle.o: .\Source\uCGUI\inc\GUI.h
+.\obj\guidemo_circle.o: .\Source\uCGUI\inc\GUI_ConfDefaults.h
+.\obj\guidemo_circle.o: .\Source\uCGUI\Config\GUIConf.h
+.\obj\guidemo_circle.o: .\Source\uCGUI\inc\GUIType.h
+.\obj\guidemo_circle.o: .\Source\uCGUI\inc\LCD.h
+.\obj\guidemo_circle.o: .\Source\uCGUI\inc\GUIVersion.h
+.\obj\guidemo_circle.o: Source\uCGUI\uCGUIDemo\GUIDEMO.h
+.\obj\guidemo_circle.o: .\Source\uCGUI\inc\LCD_ConfDefaults.h
+.\obj\guidemo_circle.o: .\Source\uCGUI\Config\LCDConf.h

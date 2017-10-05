@@ -1,0 +1,25 @@
+### uVision2 Project, (C) Keil Software
+### Do not modify !
+
+Target (PWR_Test), 0x0004 // Tools: '<unspecified>'
+Target (STM32F10x Debug), 0x0004 // Tools: '<unspecified>'
+
+Group (Startup Code)
+Group (Source)
+Group (Interrupts)
+Group (Library)
+Group (Documentation)
+
+File 1,2,<.\STM32F10x.s><STM32F10x.s>
+File 2,1,<.\main.c><main.c>
+File 3,1,<.\stm32f10x_it.c><stm32f10x_it.c>
+File 4,4,<D:\Àý³Ì\V20\common\STM32F10xR.lib><STM32F10xR.lib>
+File 5,5,<.\readme.txt><readme.txt>
+
+
+Options 1,0,0  // Target 'PWR_Test'
+EndOpt
+
+Options 2,0,0  // Target 'STM32F10x Debug'
+EndOpt
+

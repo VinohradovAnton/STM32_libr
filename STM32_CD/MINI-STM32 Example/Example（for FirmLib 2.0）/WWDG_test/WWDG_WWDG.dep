@@ -1,0 +1,6 @@
+Dependencies for Project 'WWDG', Target 'WWDG': (DO NOT MODIFY !)
+F (.\STM32F10x.s)(0x48E9C1C0)(--cpu Cortex-M3 -g --apcs=interwork -I "d:\Keil\\ARM\INC" -I "d:\Keil\\ARM\INC\ST\STM32F10x" --list ".\listing\STM32F10x.lst" --xref -o ".\obj\STM32F10x.o")
+F (.\main.c)(0x48E9C1C0)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections --asm --interleave -I..\..\library\inc -I..\..\library\src -I..\uvsion -I "d:\Keil\\ARM\INC" -I "d:\Keil\\ARM\INC\ST\STM32F10x" -o ".\obj\main.o" --omf_browse ".\obj\main.crf" --depend ".\obj\main.d")
+F (.\stm32f10x_it.c)(0x48E9C1C0)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections --asm --interleave -I..\..\library\inc -I..\..\library\src -I..\uvsion -I "d:\Keil\\ARM\INC" -I "d:\Keil\\ARM\INC\ST\STM32F10x" -o ".\obj\stm32f10x_it.o" --omf_browse ".\obj\stm32f10x_it.crf" --depend ".\obj\stm32f10x_it.d")
+F (D:\Àý³Ì\V20\common\STM32F10xR.LIB)(0x00000000)()
+F (.\readme.txt)(0x48F40462)()

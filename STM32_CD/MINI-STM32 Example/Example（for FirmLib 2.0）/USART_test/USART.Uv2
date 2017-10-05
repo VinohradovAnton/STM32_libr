@@ -1,0 +1,20 @@
+### uVision2 Project, (C) Keil Software
+### Do not modify !
+
+Target (USART), 0x0004 // Tools: '<unspecified>'
+
+Group (Start Up)
+Group (Source Code)
+Group (library)
+Group (Document)
+
+File 1,2,<.\STM32F10x.s><STM32F10x.s>
+File 2,1,<.\main.c><main.c>
+File 2,1,<.\stm32f10x_it.c><stm32f10x_it.c>
+File 3,4,<.\STM32F10xR.LIB><STM32F10xR.LIB>
+File 4,5,<.\readme.txt><readme.txt>
+
+
+Options 1,0,0  // Target 'USART'
+EndOpt
+

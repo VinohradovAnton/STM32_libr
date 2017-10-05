@@ -1,0 +1,14 @@
+Method:
+1¡¢JLINK Simulation settings programmed
+
+
+
+2¡¢Serial ISP Programming mode£¬This need to set the jumper board¡£
+At first, load down the ISP software from ST web.
+   the follow web£ºhttp://www.st.com/stonline/products/support/micro/files/um0462.zip 
+Second£¬MINI-STM32 Board J1 connect 2-3 .
+
+
+3.V3 Version MINI Board go in ISP mode£º
+1)¡¢Press  BOOT0 key, Then pree RESET key¡£
+2)¡¢First release RESET key£¬then release BOOT0 key£¬go in ISP mode¡£
